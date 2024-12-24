@@ -1,0 +1,79 @@
+/* General styling for the body*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #97a01e;
+    color: #345675;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Style the heading */
+h1 {
+    color: #57143b;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Style the input field */
+#new-task {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    margin-right: 10px;
+    border: 2px solid #3b8852;
+    border-radius: 5px;
+}
+
+/* Style the add button */
+button {
+    padding: 10px 20px;
+    background-color: #1d124b;
+    color: rgb(161, 144, 45);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Style the task list container */
+#task-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Style each task in the list */
+#task-list li {
+    background-color: #165b6d;
+    padding: 10px;
+    border: 1px solid #99698b;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style for task delete button */
+#task-list li button {
+    background-color: #e74c3c;
+    color: rgb(52, 63, 32);
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#task-list li button:hover {
+    background-color: #331029;
+}
